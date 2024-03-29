@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Paradise</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>TRAVEL PARADISE</span></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#packages">Packages</a>
+            <a href="#book">book</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviewes">Reviewes</a>
+            <a href="#about" class="menu__link scroll">About</a>
+            <a href="#contact">contact</a>
+            <a href="#register" class="menu__link scroll">Register</a>
+            
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                font-size: 20px;
+            }
+
+            banner {
+                position: relative;
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            .banner img {
+                width: 100%;
+            }
+
+            .content h2 {
+                color: white;
+                position: absolute;
+                top: 50%;
+                width: 100%;
+                text-align: center;
+                font-size: 7rem;
+                text-shadow: 5px 5px 10px #000000;
+            }
+
+            .content h5 {
+                color: black;
+                position: static;
+                top: 50%;
+                width: 100%;
+                text-align: center;
+                font-size: 5rem;
+                text-shadow: 2px 2px 3px #000000;
+            }
+        </style>
+
+        <div class="container">
+            <div class="row">
+                <div class="banner">
+                    <img src="images\i-8.jpg">
+                    <div class="content">
+                        <h2>TRAVEL AROUND<br />THE WORLD</h2>
+                        <br />
+                        <h5 align="center">...Adventure is Worthwhile...<br /> Explore, Dicover, Travel</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <marquee class="text-animation" width="100%" direction="left" height="100px" scrollamount="15" style="color:darkred; font-size:50px">
+            WELCOME TO TRAVEL PARADISE
+        </marquee>
+
+    </section>
+
+    <!-- home section ends -->
+    <!-- book section starts  -->
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <br />
+        <div class="row">
+            <form method="post" action="booking.php">
+                <div class="inputBox">
+                    <h3>Package Type</h3>
+                    <input type="text" placeholder="Enter the package type ( 1 / 2 / 3 / 4 / 5 / 6 )" name="package_type">
+                </div>
+                <div class="inputBox">
+                    <h3>How Many Number of guests</h3>
+                    <input type="number" placeholder="Enter the number of guests" name="number_of_guests">
+                </div>
+                <div class="inputBox">
+                    <h3>Arrival Date</h3>
+                    <input type="date" name="arrival_date">
+                </div>
+                <div class="inputBox">
+                    <h3>Leaving Date</h3>
+                    <input type="date" name="leaving_date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- book section ends -->
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <br />
+        <h2 style="color:black; font-size:25px; font-family:'Times New Roman'; text-align:center">
+            From adventures in the wild to city escapes & cultural tours to annual events, these holiday packages offer the best of each destination. As the leading travel agent in Sri Lanka, we provide great value for money and the convenience of having all your travel needs taken care of be it air tickets, accommodation, transport, meals or airport transfers.
+        </h2>
+        <br />
+        <br />
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images\i-1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Switzerland and France </h3>
+                    <p>* Package 01<br />Both France and Switzerland are popular travel destinations in Western Europe and both countries have their own unique culture and cuisine.</p>
+                    <div class="price"> Rs.60000.00 </div>
+                    <a href="#book" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images\i-3.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Spain & Portugal </h3>
+                    <p>* Package 02<br />Both Portugal and Spain are tourist attractions with world-famous beach destinations.</p>
+                    <div class="price"> Rs.40000.00 </div>
+                    <a href="#book" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images\i-7.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Canada </h3>
+                    <p>* Package 03<br />Canada is known for its vast coastline, beautiful places, diverse cities, picturesque lakes, plenty of outdoor adventures in the National Parks, and wildlife viewing opportunities.</p>
+                    <div class="price"> Rs.50000.00 </div>
+                    <a href="#book" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images\i-2.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Japan </h3>
+                    <p>* Package 04<br />Japan offers a host of unique experiences, from savory cuisine to temples and shrines, the beautiful nature of the mountains and distinctive four seasons.</p>
+                    <div class="price"> Rs.40000 </div>
+                    <a href="#book" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images\i-5.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Vietnam </h3>
+                    <p>* Package 05<br />Vietnam is becoming one of the world's top destinations owing to its endless natural beauty. </p>
+                    <div class="price"> Rs.30000 </div>
+                    <a href="#book" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images\i-4.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> India </h3>
+                    <p>* Package 06<br />India is a mosaic of multicultural experiences. With a rich heritage and myriad attractions, the country is among the most popular tourist destinations in the world.</p>
+                    <div class="price"> Rs.25000 </div>
+                    <a href="#book" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <br />
+        <h2 style="color:black; font-size:25px; font-family:'Times New Roman'; text-align:center">
+            As one of the most trusted tour operators in Sri Lanka,Travel Pradise tours provides a truly hassle free experience, taking care of everything from visa processing to travel insurance and air ticketing to special offers for your dream holiday.
+        </h2>
+        <br />
+        <br />
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3> 24 X 7 X 365 Customer Service</h3>
+                <p>A knowledgeable highly efficient customer service team on call for personalized service.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Free Extras during the Tour</h3>
+                <p>We offer complimentary extras to our every customer during the every tour.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Secure payment</h3>
+                <p>Travel Paradise Tours has a secure and an easy payment gateway.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>world class service</h3>
+                <p>Customer is our asset and Travel Pradise Tours provides a world class service for our every client and ensure the highest customer satisfaction.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>safty guide</h3>
+                <p>We have a fleet of well trained, professional, friendly tour guides & drivers who are passionate about their job.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Most splendid & Memorable Experiences</h3>
+                <p>We offer & ensure incomparable, memorable and most enjoyable tours in the world.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+    <!-- register section starts  -->
+
+    <section class="register" id="register">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>g</span>
+            <span>i</span>
+            <span>s</span>
+            <span>t</span>
+            <span>e</span>
+            <span>r</span>
+        </h1>
+        <br />
+        <div class="form-container">
+
+            <form action="register.php" method="post">
+                <h3>register now</h3>
+                <input type="text" name="user_name" required placeholder="enter your name">
+                <input type="email" name="email" required placeholder="enter your email">
+                <input type="text" name="tel_no" required placeholder="enter your mobile number">
+                <textarea name="address" required placeholder="Enter your address" cols="10" rows="5"></textarea>
+                <input type="password" name="password" required placeholder="enter your password">
+                <input type="submit" name="submit" value="submit" class="form-btn">
+                
+            </form>
+        </div>
+    </section>
+
+    <!-- register section ends -->
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <br />
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images\img3.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images\g-2.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images\z7.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images\j5.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images\b7.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images\g-8.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images\bus4.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images\g-7.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images\g4.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images\j7.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images\j1.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images\j3.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+    <!-- about us section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading">
+            <span>a</span>
+            <span>b</span>
+            <span>o</span>
+            <span>u</span>
+            <span>t</span>
+            <span class="space"></span>
+            <span>u</span>
+            <span>s</span>
+        </h1>
+
+        <div class="content">
+            <p style=" font-size:20px; color:black">
+                <br />
+                A fully owned subsidiary of the Travel Paradise is an IATA accredited travel agency handling a diverse portfolio of corporate clients since 1984.
+                Our leadership status has been etched over this time span of over three decades given the unparalleled experience, expertise and professionalism we possess, placing us among the country's largest travel solutions providers. Our robust growth, dynamic outlook and visionary intent as a globally competent specialist travel agent has been given due recognition by leading international airlines.
+                Our customised solutions are delivered timely and efficiently, with expertise and specialisation beyond the norm, taking full advantage of the services and value additions we possess within this entity and our Group, which enables us to present the A to Z of complete travel solutions.
+                <br />
+                <br />
+                <style>
+                    p {
+                        line-height: 30px;
+                    }
+                </style>
+                Our expert team offers a pleasant and professional service on all types of travel, to ensure a hassle-free travel experience for you.
+                Our energetic team at Travel Paradise of Sri Lanka consists of professionals who all possess a deep sense of creativity and bring different outlooks to the table. The team specializes in various markets for a diverse clientele, with extensive knowledge acquired over many years of experience in the travel industry. Equipped with a diverse skill set, they constantly strive to deliver a personalized and high-quality service with clear and friendly communication, ultimately ensuring without fail that you are kept well-informed and assisted.
+                Meet the people responsible for planning your wonderful adventures with us, and we are always on the lookout for young, passionate individuals to join our team.
+            </p>
+        </div>
+        <br />
+        <div class="box">
+            <br />
+            <br />
+            <img src="images\team.jpg" width="550" height="300">
+            <img src="images\i-6.jpg" width="480" height="300">
+        </div>
+
+    </section>
+
+    <!-- about us section ends  -->
+    <!-- reviews section starts  -->
+
+    <section class="reviewes" id="reviewes">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <br />
+        <div class="box-container">
+
+            <div class="box">
+                <h3>- Wimal Perera -</h3>
+                <p>Very happy with the holiday and package Shameem has chosen for us. We will definitely contact her again to organise our next holiday.<br />..........</p>
+            </div>
+            <div class="box">
+                <h3>- Prasanna Gamage -</h3>
+                <p>
+                    Great team at Travel Paradise - it was so easy and effortless to book and everything was managed to the last detail. It included the full package (flights, accommodation, transfers) and a great bunch of other freebies.
+                    You are really excellent at what you do so please keep this up !! :)
+                    We would certainly recommend you - we already have to our friends !!
+                    <br />..............
+                </p>
+            </div>
+            <div class="box">
+                <h3>- Jayanthi Fernando -</h3>
+                <p>Great Service & the booking process was simple & smooth. Will book through you again.<br />................</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- reviews section ends  -->
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+            <span class="space"></span>
+            <span>u</span>
+            <span>s</span>
+        </h1>
+        <br />
+        <div class="row">
+
+            <form method="post" action="contact.php">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name" name="name">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Email" name="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Phone number" name="telno">
+                </div>
+                <textarea placeholder="Message" name="message" cols="20" rows="5"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+    <!-- footer section starts -->
+
+    <br />
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3 style="color:olivedrab">Connect With Us</h3>
+                <p class="contact-agile1"><strong>Phone :</strong> 011 2356879  /  0777 567345</p>
+                <p class="contact-agile1"><strong>Fax :</strong> 011 5508973</p>
+                <p class="contact-agile1"><strong>Email :</strong> <a href="mailto:name@example.com">travelparadise@gmail.com</a></p>
+                <p class="contact-agile1"><strong>Address :</strong> Travel Pradise (PVT) Ltd, 08, 2nd Lane, Dehiwela.</p>
+
+                <iframe src="https://www.google.com/maps/place/No:08+2nd+Lane,+Dehiwala-Mount+Lavinia/data=!4m2!3m1!1s0x3ae25ad5c07eee05:0xa5d6fce4ccfd64c3?sa=X&ved=2ahUKEwjQ3O_qx5_9AhXNCbcAHcuDCxQQ8gF6BAgJEAI" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+
+            <div class="box">
+                <br />
+                <h3 style="color:olivedrab">follow us</h3>
+    <ul>
+        <li style="color:white"><a href=""><i class="fab fa-twitter"></i></a></li>
+        <li style="color:white"><a href=""><i class="fab fa-youtube"></i></a></li>
+        <li style="color:white"><a href="https://m.facebook.com/kavini.pramudika/"><i class="fab fa-facebook-f"></i></a></li>
+        <li style="color:white"><a href="https://m.instagram.com/kavi_pramudika/"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> Home   |    Privacy Policy   |   Terms & Conditions   |   FQAs & Help</h1>
+
+    </section>
+
+    <!-- footer section ends -->
+
+</body>
+</html>
